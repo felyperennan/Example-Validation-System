@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using ValidationTools.ExampleUsage.PersonModel;
+using RuleValidationExample.PersonModel;
+using ValidationTools;
 
-namespace ValidationTools.ExampleUsage
+namespace RuleValidationExample
 {
     public class Program
     {

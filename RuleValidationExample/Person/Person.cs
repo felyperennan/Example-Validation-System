@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
-using ValidationTools.ExampleUsage.PersonModel.Rules;
+using RuleValidationExample.PersonModel.Rules;
+using ValidationTools;
 using ValidationTools.Interfaces;
 
-namespace ValidationTools.ExampleUsage.PersonModel
+namespace RuleValidationExample.PersonModel
 {
     public class Person : IValidatable<Person> {
         // Example validation with Attributes

@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ValidationTools;
 using ValidationTools.Interfaces;
 
-namespace ValidationTools.ExampleUsage.PersonModel.Rules
+namespace RuleValidationExample.PersonModel.Rules
 {
     public class MaximumAge : IRule<Person> {
         int Age = 0;
