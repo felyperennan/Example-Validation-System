@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Text;
 using RuleValidationExample.PersonModel.Rules;
 using ValidationTools;
+using ValidationTools.Attributes;
 using ValidationTools.Interfaces;
 
 namespace RuleValidationExample.PersonModel
